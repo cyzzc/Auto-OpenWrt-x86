@@ -17,7 +17,7 @@
 echo 'src-git nezha https://github.com/Erope/openwrt_nezha' >>feeds.conf.default
 echo 'src-git netspeedtest  https://github.com/sirpdboy/netspeedtest' >>feeds.conf.default
 echo 'src-git small-package https://github.com/cyzzc/small-package.git' >>feeds.conf.default
-#echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git opentopd https://github.com/sirpdboy/luci-theme-opentopd' >>feeds.conf.default
 
 
 
