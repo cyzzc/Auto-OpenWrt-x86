@@ -21,7 +21,7 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 sed -i 's/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
 
 ###########添加opentopd主题###########
-#git clone https://github.com/sirpdboy/luci-theme-opentopd package/lean/luci-theme-opentopd
+# git clone https://github.com/sirpdboy/luci-theme-opentopd package/lean/luci-theme-opentopd
 
 ########### 更改默认主题（可选）###########
 # 删除自定义源默认的 argon 主题
