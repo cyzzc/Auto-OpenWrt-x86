@@ -14,10 +14,10 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git nezha https://github.com/Erope/openwrt_nezha' >>feeds.conf.default
 echo 'src-git netspeedtest  https://github.com/sirpdboy/netspeedtest' >>feeds.conf.default
-echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
-#echo 'src-git opentopd https://github.com/sirpdboy/luci-theme-opentopd' >>feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git cyzzc https://github.com/cyzzc/auto-cyzzc' >>feeds.conf.default
 
 
 
